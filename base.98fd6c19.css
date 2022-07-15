@@ -240,10 +240,10 @@ a:focus {
     will-change: transform;
     position: relative;
     border-style: groove;
-    border-width: 1px;
+    border-width: 0.7px;
     -webkit-box-shadow: 0 0 13px -1.5px #ab1eea;
     -moz-box-shadow: 0 0 13px -1.5px #ab1eea;
-    box-shadow: 0 0 33px -1.5px #ab1eea;
+    box-shadow: 0 0 43px -1.5px #ab1eea;
     background-blend-mode: difference;
 }
 
