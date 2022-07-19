@@ -92,7 +92,7 @@ body {
 
 body {
     height: 3000px;
-    background: linear-gradient(55deg, #50108c 0%, #5de61d 44%, #230d39 85%);
+    background: linear-gradient(55deg, #50108c 11%, #317214 33%, #230d39 85%);
     margin: 0;
     --color-text: #d1fabe;
     --color-bg: #994dcf;
