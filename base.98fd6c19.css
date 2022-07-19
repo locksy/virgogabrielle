@@ -484,9 +484,10 @@ a:focus {
     .content__link {
         margin: 5%;
         line-height: 1;
-        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
         position: relative;
-        font-size: 3.7rem;
+        font-size: 1.7rem;
         mix-blend-mode: difference;
     }
     .content--bg,
