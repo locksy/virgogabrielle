@@ -36,7 +36,6 @@ body {
 
 .logo {
     top: auto;
-    ;
     display: flex;
     justify-content: center;
     position: relative;
@@ -398,7 +397,7 @@ a:focus {
     margin: 0;
     line-height: 1;
     position: relative;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     mix-blend-mode: difference;
 }
 
