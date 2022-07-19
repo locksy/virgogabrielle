@@ -92,7 +92,7 @@ body {
 
 body {
     height: 3000px;
-    background: linear-gradient(55deg, #50108c 11%, #317214 33%, #230d39 85%);
+    background: linear-gradient(55deg, #50108c 0%, #57d61c 21%, #230d39 85%);
     margin: 0;
     --color-text: #d1fabe;
     --color-bg: #994dcf;
@@ -397,7 +397,7 @@ a:focus {
     margin: 0;
     line-height: 1;
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     mix-blend-mode: difference;
 }
 
