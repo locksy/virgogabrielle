@@ -35,7 +35,6 @@ body {
 }
 
 .logo {
-    top: auto;
     display: flex;
     justify-content: center;
     position: relative;
@@ -396,8 +395,9 @@ a:focus {
 .content__link {
     margin: 0;
     line-height: 1;
+    width: 100%;
     position: relative;
-    font-size: 1.1rem;
+    font-size: 3.7rem;
     mix-blend-mode: difference;
 }
 
@@ -426,8 +426,7 @@ a:focus {
 }
 
 .content__text span,
-.content__link span,
-{
+.content__link span {
     white-space: pre;
     display: inline-block;
     will-change: transform;
@@ -480,6 +479,15 @@ a:focus {
     }
     .frame a {
         pointer-events: auto;
+    }
+    .content__text,
+    .content__link {
+        margin: 0;
+        line-height: 1;
+        width: 100%;
+        position: relative;
+        font-size: 3.7rem;
+        mix-blend-mode: difference;
     }
     .content--bg,
     .content--nav {}
