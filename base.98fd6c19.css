@@ -106,10 +106,10 @@ body {
     --color-title: #994dcf;
     --font-title: ambroise-firmin-std, serif;
     --font-weight-title: 300;
-    --font-size-title: 7vw;
+    --font-size-title: 3vw;
     --font-size-title-small: 5vw;
     --font-size-title-min: 3.25rem;
-    --font-size-title-max: 7rem;
+    --font-size-title-max: 3rem;
     --letter-spacing-title: 0;
     --text-transform-title: uppercase;
     color: var(--color-text);
@@ -128,7 +128,7 @@ body {
     --font-weight-title: 400;
     --letter-spacing-title: 0;
     --text-transform-title: uppercase;
-    --font-size-title: 6vw;
+    --font-size-title: 3vw;
     --font-size-title-max: 5rem;
 }
 
@@ -396,7 +396,7 @@ a:focus {
     margin: 0;
     line-height: 1;
     position: relative;
-    font-size: 3rem;
+    font-size: 2.2rem;
     mix-blend-mode: difference;
 }
 
