@@ -482,7 +482,7 @@ a:focus {
     }
     .content__text,
     .content__link {
-        margin: 0;
+        margin: 5%;
         line-height: 1;
         width: 100%;
         position: relative;
