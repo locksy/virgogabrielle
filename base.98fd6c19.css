@@ -35,6 +35,8 @@ body {
 }
 
 .logo {
+    top: auto;
+    ;
     display: flex;
     justify-content: center;
     position: relative;
@@ -43,7 +45,7 @@ body {
 }
 
 .logo b {
-    font: 111 7vh "Vibur";
+    font: 222 7vh "Vibur";
     color: #fee;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
