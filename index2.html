@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+
 
 <head>
     <meta charset="UTF-8">
@@ -7,11 +7,15 @@
     <title>virgogabrielle</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="Codrops">
+    <meta name="author" content="Sawwave">
     <link rel="shortcut icon" href="favicon.26242483.ico">
     <link rel="stylesheet" href="https://use.typekit.net/xha3hij.css">
     <link rel="stylesheet" type="text/css" href="base.98fd6c19.css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vibur&display=swap" rel="stylesheet">
     <script>
         document.documentElement.className = "js";
 
@@ -24,55 +28,49 @@
         supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
     </script>
     <link rel="stylesheet" href="index2.242c2f2d.css">
+
 </head>
 
 <body class="demo-2 loading">
-    <svg id="fader"></svg>
-    <script>
-        fadeInPage();
-    </script>
-    <div class="frame">
-        <h1 class="frame__title">the website of<br><br>
-            <h2><a class="title" href="#">virgogabrielle</a></h2>
-        </h1>
-        <br>
-        <br>
-        <h2 class="frame__title">[ scroll ]</h2>
-        <br>
-        <div class="frame__demos">
-            <span class="frame__demos-text">or select from the following:</span>
-            <a class="frame__demo" href="index.html">home</a>
-            <a class="frame__demo frame__demo--current" href="index2.html">music</a>
-            <a class="frame__demo" href="index3.html">pictures</a>
-            <a class="frame__demo" href="index4.html">video</a>
-            <a class="frame__demo" href="index5.html">discography</a>
-        </div>
 
-    </div>
+
+    <div class="logo"><b>v<span>ir</span>gogabr<span>i</span>el<span>l</span>e</div>
+
+
+
     <main data-scroll-container="">
-        <section class="content">
+
+
+        <section class="content items wrapper">
+
             <img data-scroll="" class="content__img" src="IMG_0011.JPG" alt="Some image">
-            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text">Nabonidus</h2>
+
+            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class=" blur-effect content__text">/home<br><br> this is next stuff<br>about the artist etc.<br>virgogabrielle is the bomb</h2>
         </section>
         <section class="content">
-            <img data-scroll="" class="content__img" src="IMG_0021.JPG" alt="Some image">
-            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text">Cambyses</h2>
+            <img data-scroll="" class="content__img blur" src="IMG_0021.JPG" alt="Some image">
+            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text blur-effect" style="text-align:right">/about<br><br> this is next stuff<br>about the artist etc.<br>virgogabrielle is the bomb</h2>
         </section>
         <section class="content">
             <img data-scroll="" class="content__img" src="IMG_0032.JPG" alt="Some image">
-            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text"><a href="https://github.com/codrops/OnScrollLetterAnimations/">virgogabrielle</a></h2>
+            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text blur-effect"><a href="#">/discography</a><br><br> this is next stuff<br>about the artist etc.<br>virgogabrielle is the bomb</h2>
         </section>
         <section class="content">
             <img data-scroll="" class="content__img" src="IMG_0042.JPG" alt="Some image">
-            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text">Sumuabum</h2>
+            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text blur-effect" style="text-align:right"><a href="#">/pictures</a><br><br><a href="#">click here</a> to enter picture gallery</h2>
+            </h2>
         </section>
         <section class="content">
-            <img data-scroll="" class="content__img" src="IMG_0045.JPG" alt="Some image">
-            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text">Hammurabi</h2>
+            <img data-scroll="" class="content__img" id="menu2" src="IMG_3293.JPG" alt="Some image">
+            <h2 data-scroll="" data-scroll-speed="1" data-splitting="" class="content__text blur-effect">/music<br><br><a href="#">youtube page</a><br><a href="#">spotify page</a><br>or we'll have embeds here</h2>
         </section>
     </main>
+
+    <script>
+    </script>
+    <script src="ScrollMagic.min.js"></script>
     <script src="index2.242c2f2d.js"></script>
-    <script src="vanilla-tilt.min.js"></script>
+
 </body>
 
 </html>
