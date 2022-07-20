@@ -10,7 +10,7 @@
         ...
     }
     img {
-        max-width: 100%;
+        max-width: 400px;
         height: auto;
     }
 }
@@ -24,7 +24,10 @@ media screen and (max-device-width: 480px) {
 
 @media screen and (max-device-width: 480px) {
     body {
-        ...
+        margin: 25%;
+    }
+    .content__img {
+        max-width: 400px;
     }
     div {
         clear: both!important;
@@ -125,6 +128,8 @@ media screen and (max-device-width: 480px) {
 
 body {
     min-width: 1000px;
+    min-height: 100%;
+    max-width: 100%;
     margin: 0;
     background: linear-gradient(55deg, #50108c 0%, #57d61c 21%, #230d39 85%);
     --color-text: #d1fabe;
