@@ -1,4 +1,19 @@
-* @media screen and (max-device-width: 480px) {
+.container {
+    zoom: 1;
+    /* IE6&7 */
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+@media screen and (max-device-width: 480px) {
     body {
         ...
     }
@@ -15,7 +30,7 @@
     }
 }
 
-media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
     body {
         -webkit-text-size-adjust: none;
         padding: 5px;
