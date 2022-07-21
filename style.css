@@ -1,3 +1,10 @@
+/* fixes for safari and opera */
+#wrapper,#header { width: 100%; }
+#content { float: left; }
+#content { width: 100%; }
+/* end fixes for safari and opera */
+/* end main layout */
+
 div#container {
     position: relative;
 }
@@ -216,7 +223,7 @@ a:focus {
 .content {
     display: grid;
     width: 100vw;
-    height: 100vh;
+    height: 75%;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -226,6 +233,7 @@ a:focus {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .content--bg {
@@ -253,6 +261,7 @@ a:focus {
     -moz-box-shadow: 0 0 13px -1.5px #ab1eea;
     box-shadow: 0 0 43px -1.5px #ab1eea;
     background-blend-mode: difference;
+    -webkit-overflow-scrolling: touch;
 }
 
 .content__img:not(.content__img--tiny) {
