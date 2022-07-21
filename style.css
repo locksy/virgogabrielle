@@ -237,7 +237,7 @@ a:focus {
 }
 
 .content--bg {
-    height: 100%;
+
     align-content: center;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 1fr);
