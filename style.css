@@ -1,4 +1,7 @@
-,
+div#container {
+    position: relative;
+}
+
 *::after,
 *::before {
     box-sizing: border-box;
