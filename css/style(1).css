@@ -249,10 +249,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         grid-area: 1 / 1 / 2 / 2;
         object-fit: cover;
     }
-    .content__text {
-        font-size: 1.1rem;
-        max-width: 300px;
-    }
 }
 
 @media all and (min-width:569px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -262,10 +258,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         border-radius: 0.75rem;
         object-fit: cover;
         grid-area: 1 / 1 / 2 / 2;
-    }
-    .content__text {
-        font-size: 1.1rem;
-        max-width: 300px;
     }
 }
 
@@ -277,10 +269,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         grid-area: 1 / 1 / 2 / 2;
         object-fit: cover;
     }
-    .content__text {
-        font-size: 1.1rem;
-        max-width: 300px;
-    }
 }
 
 @media all and (min-width:321px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -291,10 +279,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         grid-area: 1 / 1 / 2 / 2;
         object-fit: cover;
     }
-    .content__text {
-        font-size: 0.5rem;
-        max-width: 300px;
-    }
 }
 
 @media all and (min-width:0px) and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -304,10 +288,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         border-radius: 0.75rem;
         grid-area: 1 / 1 / 2 / 2;
         object-fit: cover;
-    }
-    .content__text {
-        font-size: 0.5rem;
-        max-width: 300px;
     }
 }
 
@@ -325,10 +305,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
         grid-area: 1 / 1 / 2 / 2;
         object-fit: cover;
     }
-    .content__text {
-        font-size: 0.5rem;
-        max-width: 300px;
-    }
 }
 
 @media all and (min-width:569px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -338,10 +314,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
         border-radius: 0.75rem;
         object-fit: cover;
         grid-area: 1 / 1 / 2 / 2;
-    }
-    .content__text {
-        font-size: 0.5rem;
-        max-width: 300px;
     }
 }
 
@@ -353,10 +325,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
         grid-area: 1 / 1 / 2 / 2;
         object-fit: cover;
     }
-    .content__text {
-        font-size: 0.5rem;
-        max-width: 300px;
-    }
 }
 
 @media all and (min-width:321px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -367,10 +335,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
         grid-area: 1 / 1 / 2 / 2;
         object-fit: cover;
     }
-    .content__text {
-        font-size: 0.5rem;
-        max-width: 300px;
-    }
 }
 
 @media all and (min-width:0px) and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -380,10 +344,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
         border-radius: 0.75rem;
         grid-area: 1 / 1 / 2 / 2;
         object-fit: cover;
-    }
-    .content__text {
-        font-size: 0.5rem;
-        max-width: 300px;
     }
 }
 
