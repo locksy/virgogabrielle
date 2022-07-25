@@ -1,24 +1,6 @@
-,
 *::after,
 *::before {
     box-sizing: border-box;
-}
-
-.granimate {
-    background: linear-gradient(105deg, #994dcf, #d3eeb0);
-    animation: hue 5s linear 0s infinite reverse;
-}
-
-.granimate::before {
-    background: linear-gradient(105deg, #994dcf, #d3eeb0);
-    animation: hue 120s linear 1s infinite;
-    opacity: 11%;
-}
-
-@keyframes hue {
-    to {
-        filter: hue-rotate(1turn);
-    }
 }
 
 .logo {
@@ -245,7 +227,7 @@ a:focus {
 }
 
 .content__img:not(.content__img--tiny) {
-    height: 77%;
+    max-height: 600px;
     max-width: 600px;
     border-radius: 0.75rem;
     grid-area: 1 / 1 / 2 / 2;
