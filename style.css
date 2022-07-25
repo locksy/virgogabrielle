@@ -1,147 +1,137 @@
+@charset "UTF-8";
+html,
 body {
-  margin: 0;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: #c7f7ad;
 }
 
-.page-wrapper {
-  display: block;
-  width: 100%;
+* {
+    box-sizing: border-box;
+    letter-spacing: 1rem;
 }
 
-@media (min-width: 700px) {
-  .page-wrapper {
+.contentContainer {
+    width: 50%;
+    min-width: 320px;
+    height: 100vh;
+    padding: 8rem;
+    background: #cdf7ad;
+    float: left;
+}
+
+.contentContainer .title {
+    font-size: 10rem;
+    color: #409f10;
+    mix-blend-mode: difference;
+}
+
+.contentContainer .title .sub-title {
+    font-size: 1rem;
+    display: block;
+    padding-left: 5px;
+    color: #925dcb;
+    mix-blend-mode: difference;
+}
+
+.contentContainer .link-more {
+    text-decoration: none;
+    color: #925dcb;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.contentContainer .link-more:before {
+    content: "⎼ ";
+}
+
+.imageContainer {
+    height: 100vh;
+}
+
+.imageContainer .image {
+    width: 100%;
+    height: 100%;
+}
+
+.imageContainer .image.image1 {
+    background: url("img/IMG_3852.JPG") 5% 50% no-repeat fixed;
+    background-size: cover;
+}
+
+.imageContainer .image.image2 {
+    background: url("img/IMG_3839.JPG") 0% 50% no-repeat fixed;
+    background-size: cover;
+}
+
+.imageContainer .image.image3 {
+    background: url(https://farm6.staticflickr.com/5812/22070479025_04e33030cc_b.jpg) 0% 50% no-repeat fixed;
+    background-size: cover;
+}
+
+#side-bar {
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+}
+
+#side-bar nav ul {
+    list-style: none;
+    padding: 20px 0;
+    margin-left: -30px;
+}
+
+#side-bar nav ul li {
+    padding-bottom: 100px;
+    transform: rotate(-90deg);
+    transform-origin: top center;
+}
+
+#side-bar nav ul li a {
+    color: #1d0d85 font-size: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#side-bar nav ul li a.active {
+    color: #925dcb;
+}
+
+#top-bar {
+    position: fixed;
+    width: 100%;
+    text-align: right;
+}
+
+#top-bar nav ul {
+    list-style: none;
+}
+
+#top-bar nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#top-bar nav ul li a {
+    color: #cef8a7 font-size: 14px;
+    text-align: right;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#menu {
+    width: 100%;
+    height: 80px;
+    background: #925dcb;
     display: flex;
-  }
-}
-aside {
-  background-color: #222;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0 40px;
-}
-
-@media (min-width: 700px) {
-  aside {
-    background-color: #222;
-    color: white;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    flex: 0 0 50%;
-    padding: 0;
-  }
-}
-h1,
-.flourish {
-  font-size: 6vw;
-  margin: 10px 0;
-  font-family: "Oxygen", sans-serif;
-  text-align: center;
+    color: #fff;
+    padding-left: 10px;
 }
 
-@media (min-width: 700px) {
-  h1,
-.flourish {
-    font-size: 4.5vw;
-    margin: 20px 0;
-    padding: 0 20px;
-  }
-}
-h1 {
-  letter-spacing: 10px;
-  text-transform: uppercase;
-}
-
-.flourish {
-  font-weight: bold;
-}
-
-.bio {
-  margin: 0 20px;
-  text-align: center;
-  line-height: 1.5;
-  font-style: italic;
-}
-
-@media (min-width: 1100px) {
-  .bio {
-    margin: 0 100px;
-    text-align: center;
-    line-height: 1.7;
-    font-size: 1.2em;
-  }
-}
-article {
-  margin: 0;
-}
-
-@media (min-width: 700px) {
-  article {
-    flex: 0 0 50%;
-    margin-left: 50%;
-    padding-top: 30px;
-  }
-}
-.author,
-.photographer {
-  text-transform: uppercase;
-  font-size: 0.7em;
-  letter-spacing: 1px;
-  color: #777;
-  padding: 0 20px;
-  margin: 0;
-  font-family: "Oxygen", sans-serif;
-}
-.author span,
-.photographer span {
-  color: rgba(0, 0, 0, 0.4);
-  text-transform: capitalize;
-}
-
-@media (min-width: 700px) {
-  .author,
-.photographer {
-    padding: 0 60px;
-  }
-}
-.image img {
-  width: 100%;
-  margin: 20px 0;
-}
-
-.text {
-  columns: 2;
-  column-width: 250px;
-  column-gap: 2em;
-  padding: 0 20px;
-  text-align: justify;
-}
-.text p:first-child {
-  margin-top: 0;
-}
-.text p:first-child:first-letter {
-  float: left;
-  color: red;
-  font-size: 4em;
-  line-height: 35px;
-  padding: 19px 10px 10px 0;
-}
-
-@media (min-width: 1100px) {
-  .text {
-    padding: 0 60px;
-  }
-}
-footer {
-  height: 40px;
+.active {
+    color: #925dcb;
 }
