@@ -238,7 +238,7 @@ a:focus {
 
 and (-webkit-min-device-pixel-ratio: 2) {
     .content__img:not(.content__img--tiny) {
-        height: 44%;
+        max-height: 600px;
         max-width: 380px;
         border-radius: 0.75rem;
         grid-area: 1 / 1 / 2 / 2;
@@ -252,7 +252,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media all and (min-width:569px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .content__img:not(.content__img--tiny) {
-        height: 44%;
+        max-height: 600px;
         max-width: 380px;
         border-radius: 0.75rem;
         object-fit: scale-down;
@@ -266,7 +266,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media all and (min-width:481px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
     .content__img:not(.content__img--tiny) {
-        height: 44%;
+        max-height: 600px;
         max-width: 380px;
         border-radius: 0.75rem;
         grid-area: 1 / 1 / 2 / 2;
@@ -280,7 +280,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media all and (min-width:321px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     .content__img:not(.content__img--tiny) {
-        height: 44%;
+        max-height: 600px;
         max-width: 380px;
         border-radius: 0.75rem;
         grid-area: 1 / 1 / 2 / 2;
@@ -294,7 +294,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media all and (min-width:0px) and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
     .content__img:not(.content__img--tiny) {
-        height: 44%;
+        max-height: 600px;
         max-width: 380px;
         border-radius: 0.75rem;
         grid-area: 1 / 1 / 2 / 2;
