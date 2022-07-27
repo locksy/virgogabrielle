@@ -401,7 +401,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .content__link span {
     white-space: pre;
     display: inline-block;
-    max-width: 333px;
+    max-width: 11vh;
     will-change: transform;
 }
 
