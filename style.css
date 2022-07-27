@@ -52,7 +52,7 @@ body {
 }
 
 .imageContainer .image {
-    width: 100%;
+    width: 100vw;
     height: 111vh;
 }
 
@@ -84,7 +84,6 @@ body {
 }
 
 #side-bar nav ul li {
-    padding-bottom: 100px;
     transform: rotate(-90deg);
     transform-origin: top center;
 }
