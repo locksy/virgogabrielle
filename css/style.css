@@ -237,30 +237,30 @@ a:focus {
 /* add this for high pixel density mobile ONLY */
 
 and (-webkit-min-device-pixel-ratio: 2) {
-    .content__img:not(.content__img--tiny) {
+    .contentcontainer {
         max-height: 600px;
         max-width: 380px;
         border-radius: 0.75rem;
-        grid-area: 1 / 1 / 2 / 2;
         object-fit: scale-down;
+        grid-area: 1 / 1 / 2 / 2;
     }
-    .content__text {
+    .imageContainer {
         font-size: 0.5rem;
-        max-width: 300px;
+        max-height: 600px;
     }
 }
 
 @media all and (min-width:569px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-    .content__img:not(.content__img--tiny) {
+    .content {
         max-height: 600px;
         max-width: 380px;
         border-radius: 0.75rem;
         object-fit: scale-down;
         grid-area: 1 / 1 / 2 / 2;
     }
-    .content__text {
+    .imageContainer {
         font-size: 0.5rem;
-        max-width: 300px;
+        max-height: 600px;
     }
 }
 

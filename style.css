@@ -13,16 +13,17 @@ body {
 }
 
 .contentContainer {
-    width: 50%;
+    width: 11vw;
     min-width: 320px;
-    height: 100vh;
+    height: 111vh;
     padding: 8rem;
     background: #cdf7ad;
     float: left;
 }
 
 .contentContainer .title {
-    font-size: 10rem;
+    font-size: 11vw;
+    font-weight: ;
     color: #409f10;
     mix-blend-mode: difference;
 }
@@ -47,7 +48,7 @@ body {
 }
 
 .imageContainer {
-    height: 100vh;
+    height: 111vh;
 }
 
 .imageContainer .image {
