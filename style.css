@@ -13,13 +13,13 @@ body {
 }
 
 .span {
-    font-size: 111vh;
+    font-size: 7em;
 }
 
 .contentContainer {
-    width: 11vw;
+    width: 11%;
     min-width: 320px;
-    height: 111vh;
+    height: 1616px;
     padding: 8rem;
     background: #cdf7ad;
     float: left;
@@ -52,12 +52,12 @@ body {
 }
 
 .imageContainer {
-    height: 111vh;
+    height: 111%;
 }
 
 .imageContainer .image {
     width: cover;
-    height: 111vh;
+    height: 1616px;
 }
 
 .imageContainer .image.image1 {
@@ -78,7 +78,7 @@ body {
 #side-bar {
     position: fixed;
     width: 80px;
-    height: 111vh;
+    height: 111%;
 }
 
 #side-bar nav ul {
