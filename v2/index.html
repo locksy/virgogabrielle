@@ -1,112 +1,149 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" class="no-js">
+
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Dora (GSAP ScrollTrigger) (Golden Ratio Grid) (Architecture Website Concept)</title>
-  <title>Dora (GSAP ScrollTrigger) (Golden Ratio Grid) (Architecture Website Concept)</title>
-  <meta name="description" content="Dora (GSAP ScrollTrigger) (Golden Ratio Grid) (Architecture Website Concept) Created By iCodeAyush.">
-  <meta name="author" content="Ayush Shukla">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smooth scrolling and inner image animation | Codrops</title>
+    <meta name="description" content="A smooth scrolling and inner image animation effect." />
+    <meta name="keywords" content="smooth scrolling, animation, image effect, web design, tutorial, javascript" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/qrg0pyh.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/base1.css" />
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function() {
+            var e, t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+        };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<!----------------------------------------------------LandingPage--------------------------------------------------->
-  <div id="wrapper" class="landingPage">
-    
-    
-    <!------------logo------------>
-    <a id="logo" href="#wrapper">
-      <h1>Dora</h1>
-    </a>
-    <!------------/logo------------>
-    
-    <!------------Nav------------>
-    <a id="Navbar">Menu</a>
-    
-    <nav class="DisplayNone">
-      <a href="#Studio"><span>Studio</span></a>
-      <a href="#About"><span>About</span></a>
-      <a href="#Works"><span>Works</span></a>
-      <a href="#codeby"><span>Contact</span></a>
-    </nav>
-    <!------------/Nav------------>
 
-    <!------------Intro------------>
-    <section>
-      <h1><span>Dora</span></h1>
-      <p><span>Better living, Unique design</span></p>
-      <p><span>Since 1992</span></p>
-    </section>
-    <!------------/Intro------------>
+<body class="loading">
+    <main>
+        <div data-scroll>
+            <div class="frame">
+                <div class="frame__title-wrap">
 
-    <!------------D------------>
-    <div id="d">
-      <p>D</p>
-    </div>
-    <!------------/D------------>
+                </div>
+                <span class="logo"><b><span>virgogabrielle</b></span>
+            </div>
+            <div class="content">
 
-    <!------------ScrollDown------------>
-    <div id="ScrollDown">
-      <p>ScrollDown</p>
-    </div>
-    <!------------/ScrollDown------------>
 
-  </div>
-  <!----------------------------------------------------/LandingPage--------------------------------------------------->
 
-  <!----------------------------------------------------Slide1--------------------------------------------------->
-  <div id="wrapper" class="slide1">
-    <div id="ImageContainer">
-      <img src="https://icodeayush.github.io/Dora/img/ModernLiving.jpg" alt="ModernLiving">
-    </div>
-    <div id="slide">
-      <h1>Modern Living</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur enim in, perspiciatis sunt expedita
-        consectetur! Repellat delectus fugit, laboriosam qui deleniti iure.</p>
-    </div>
-  </div>
-  <!----------------------------------------------------/Slide1--------------------------------------------------->
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">HOME</h2>
+                        <div class="item__img item__img--t1"></div>
+                    </div>
+                    <div class="item__caption">
+                        <h2>Who is Virgo?</h2>
+                        <p class="item__caption-copy">She is an old soul in a fast, new world.<br><br>Northern Californian vocalist/producer/instrumentalist virgogabrielle takes listeners to the dreamland through her candid lyrics, R&B inspired guitar, and layered melodies. Her compositions
+                            are designed to make people feel something wavy, something real, something genuine.
+                        </p>
+                    </div>
+                    <div class="item__caption">
+                        <h2>listeners have described Virgo’s music</h2>
+                        <p class="item__caption-copy">on a spectrum of soothing and dreamy to powerful and hard-hitting, bringing about a true duality. Veering between jazzy, even slightly edgy neo-soul and hip-hop, Virgo’s signature style is a fusion of many influences. Just to name
+                            a few, inspiration from Jessie Reyez, K.Flay, Dreezy and Nai Palm can be heard.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">ABOUT</h2>
+                        <div class="item__img item__img--t2"></div>
+                    </div>
 
-  <!----------------------------------------------------Slide2--------------------------------------------------->
-  <div id="wrapper" class="slide2">
-    <div id="ImageContainer">
-      <img src="https://icodeayush.github.io/Dora/img/CoffeeTable.jpg" alt="CoffeeTable">
-    </div>
-    <div id="slide">
-      <h1>Coffee Table</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum perspiciatis veritatis reprehenderit, officiis
-        incidunt itaque facilis placeat sint dignissimos accusantium tenetur repellendus.</p>
-    </div>
-  </div>
-  <!----------------------------------------------------/Slide2--------------------------------------------------->
+                </div>
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">VIRGO</h2>
+                        <div class="item__img item__img--t3"></div>
+                    </div>
+                    <div class="item__caption">
 
-  <!----------------------------------------------------Slide3--------------------------------------------------->
-  <div id="wrapper" class="slide3">
-    <div id="ImageContainer">
-      <img src="https://icodeayush.github.io/Dora/img/BedroomInterior.jpg" alt="BedroomInterior">
-    </div>
-    <div id="slide">
-      <h1>Bedroom Interior</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deleniti quo odit dolorum laudantium aut
-        magnam impedit. Placeat magni at culpa ex.</p>
-    </div>
-  </div>
-  <!----------------------------------------------------/Slide3--------------------------------------------------->
+                        <p class="item__caption-copy">Virgo’s music revolves around embracing the authentic self and being upfront about the good, the bad and everything in between. Through this unfiltered honesty, Virgo brings listeners to a place not easily found in a world full
+                            of hiding.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">VIDEOS</h2>
+                        <div class="item__img item__img--t1"></div>
+                    </div>
+                    <div class="item__caption">
 
-  <!----------------------------------------------------CodeBy--------------------------------------------------->
-  <div id="codeby">
-    <a target="_blank" href="https://icodeayush.github.io/">Code By <span>iCodeAyush</span></a>
-  </div>
-  <!----------------------------------------------------/CodeBy--------------------------------------------------->
+                        <p class="item__caption-copy">Virgo performs both solo and with her full band, particularly enjoying events that foster community through sharing music. Her EP release show held at Renaissance Square in June 2021 drew over 100 people, as herself and the band
+                            performed the entirety of her “999” project. Virgo has played around the United States with organizations such as Sofar Sounds, also taking her music to New York for the first time to perform at SOB’s via Major Stage in July
+                            2022. </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">STORE</h2>
+                        <div class="item__img item__img--t2"></div>
+                    </div>
+                    <div class="item__caption">
 
-  <!-- gsap-latest-beta.min.js -->
-  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
-  <!-- ScrollTrigger.min.js -->
-  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js'></script>
-<!-- partial -->
-  <script  src="./script.js"></script>
+                        <p class="item__caption-copy">Two ghostly white figures in coveralls and helmets are softly dancing vastness.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">The state of divergence</h2>
+                        <div class="item__img item__img--t3"></div>
+                    </div>
+                    <div class="item__caption">
 
+                        <p class="item__caption-copy">Vastness is bearable only through love invent the universe vanquish.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">Open perspective</h2>
+                        <div class="item__img item__img--t1"></div>
+                    </div>
+                    <div class="item__caption">
+
+                        <p class="item__caption-copy">The only home we've ever known concept of the number one.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">Discovery of shapes</h2>
+                        <div class="item__img item__img--t3"></div>
+                    </div>
+                    <div class="item__caption">
+
+                        <p class="item__caption-copy">Decipherment explorations tesseract as a patch of light.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img-wrap">
+                        <h2 class="item__caption-title">The Observer</h2>
+                        <div class="item__img item__img--t2"></div>
+                    </div>
+                    <div class="item__caption">
+
+                        <p class="item__caption-copy">Astonishment muse about dispassionate extraterrestrial observer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/demo.js"></script>
 </body>
+
 </html>
