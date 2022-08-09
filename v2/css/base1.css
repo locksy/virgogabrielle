@@ -13,8 +13,12 @@
 
 h2 {
     font-size: 2rem;
+    z-index: 1;
 }
 
+P {
+    z-index: 1;
+}
 html {
     height: 100%;
     background-image: url("../img/chenayi_3.JPG");
