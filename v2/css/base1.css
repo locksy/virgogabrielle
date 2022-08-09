@@ -70,10 +70,11 @@ body {
 }
 
 .bg-img {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height:100vh;
     background-image: url("../img/chenayi_3.JPG");
     mix-blend-mode: difference;
+    opccity: 22%;
 }
 
 @keyframes loaderAnim {
