@@ -69,7 +69,7 @@ body {
     animation: loaderAnim 0.7s linear infinite alternate forwards;
 }
 
-.bg-img {
+.bg-img1 {
     width: 100vw;
     height:100vh;
     background-image: url("../img/chenayi_3.JPG");
