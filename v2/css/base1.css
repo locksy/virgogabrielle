@@ -74,7 +74,7 @@ body {
     height:100vh;
     background-image: url("../img/chenayi_3.JPG");
     mix-blend-mode: difference;
-    opccity: 22%;
+    opacity: 22%;
 }
 
 @keyframes loaderAnim {
