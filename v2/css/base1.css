@@ -158,7 +158,7 @@ a:focus {
     font-family: Obituary, sans-serif;
     font-size: 10rem;
     color: var(--color-deco);
-    bottom: calc(100% - 9rem);
+    bottom: calc(100% - 4rem);
     mix-blend-mode: difference;
     color: var(--color-text);
     content: "VG";
