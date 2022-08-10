@@ -181,8 +181,7 @@ a:focus {
 }
 
 .item:nth-child(6) .item__img-wrap {
-    width: calc(100vw - 2rem);
-    --aspect-ratio: 1500/844;
+    --aspect-ratio: 60/75;
     --image: url("../vgpics/DSC03805.jpg");
 }
 
