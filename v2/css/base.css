@@ -8,10 +8,6 @@
     font-size: 16px;
 }
 
-h2 {
-    font-size: 12rem;
-}
-
 body {
     margin: 0;
     --color-text: #d5f8b2;
@@ -20,10 +16,9 @@ body {
     --color-deco: #d5f8b2;
     color: var(--color-text);
     background: rgb(131, 58, 180);
-    background: linear-gradient(180deg, rgba(131, 58, 180, 1) 0%, rgb(95, 46, 139) 0%, rgb(21, 4, 49) 100%);
-    font-family: paralucent, sans-serif;
-    font-family: quiroh, sans-serif;
-    font-family: mr-eaves-xl-sans, sans-serif;
+    background: linear-gradient(0deg, rgba(131, 58, 180, 1) 0%, 0%, rgb(49, 6, 52), #9460cc 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
 }
 
 
@@ -133,17 +128,17 @@ a:focus {
 }
 
 .item::before {
+    counter-increment: figure;
+    content: counter(figure, decimal-leading-zero);
     position: absolute;
     font-family: paralucent, sans-serif;
     font-size: 10rem;
     color: var(--color-deco);
-    bottom: calc(100% - 7rem);
-    mix-blend-mode: difference;
+    bottom: calc(100% - 3rem);
 }
 
 .item:nth-child(even)::before {
     right: 0;
-    bottom: calc(100% - 7rem);
 }
 
 .item__img-wrap {
@@ -154,57 +149,56 @@ a:focus {
     padding-bottom: calc(100% / (var(--aspect-ratio)));
     max-width: calc(100% - 2rem);
     will-change: transform;
-    mix-blend-mode: difference;
 }
 
 .item:first-child .item__img-wrap {
     --aspect-ratio: 8/10;
-    --image: url("../img/chenayi_6.JPG");
+    --image: url("../vgpics/chenayi_6.JPG");
 }
 
 .item:nth-child(2) .item__img-wrap {
     width: 1000px;
     --aspect-ratio: 120/76;
-    --image: url("../img/DSC00655.jpg");
+    --image: url("../vgpics/DSC00655.jpg");
 }
 
 .item:nth-child(3) .item__img-wrap {
     --aspect-ratio: 60/75;
-    --image: url("../img/DSC03850.jpg");
+    --image: url("../vgpics/DSC03850.jpg");
 }
 
 .item:nth-child(4) .item__img-wrap {
     width: 800px;
     --aspect-ratio: 900/505;
-    --image: url("../img/DSC03805.jpg");
+    --image: url("../vgpics/image0.jpeg");
 }
 
 .item:nth-child(5) .item__img-wrap {
     --aspect-ratio: 6/8;
-    --image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/5.jpg);
+    --image: url("../vgpics/felipe_2.JPG");
 }
 
 .item:nth-child(6) .item__img-wrap {
     width: calc(100vw - 2rem);
     --aspect-ratio: 1500/844;
-    --image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/6.jpg);
+    --image: url("../vgpics/DSC03805.jpg");
 }
 
 .item:nth-child(7) .item__img-wrap {
     width: 900px;
     --aspect-ratio: 1000/749;
-    --image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/7.jpg);
+    --image: url("../vgpics/KG_12.JPG");
 }
 
 .item:nth-child(8) .item__img-wrap {
     width: 900px;
     --aspect-ratio: 1000/562;
-    --image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/8.jpg);
+    --image: url("../vgpics/KG_1_.jpg");
 }
 
 .item:nth-child(9) .item__img-wrap {
     --aspect-ratio: 60/75;
-    --image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/9.jpg);
+    --image: url("../vgpics/KG_7_.JPG");
 }
 
 .item__img {
@@ -217,7 +211,6 @@ a:focus {
     background-size: cover;
     background-position: 50% 0%;
     will-change: transform;
-    mix-blend-mode: difference;
 }
 
 .item__img--t1 {
@@ -237,19 +230,10 @@ a:focus {
 }
 
 .item__caption-title {
-    font-family: Obituary, sans-serif;
-    font-weight: 100;
-    font-size: 7rem;
+    font-family: paralucent, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
     margin: 0;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 2px;
-    bottom: 0;
-    left: 0;
-    overflow: visible;
-    position: absolute;
-    visibility: visible;
-    clear: both;
 }
 
 .item__caption-copy {
