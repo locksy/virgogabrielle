@@ -21,6 +21,81 @@ body {
     font-size: 1.1rem;
 }
 
+.heading {
+    color: var(--color-heading);
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    margin-top: -5vw;
+    width: 100%;
+    font-size: 12.25vw;
+    z-index: 1000;
+    pointer-events: none;
+    font-family: Obituary, serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+    will-change: transform, opacity;
+    transform-origin: 50% 40%;
+    mix-blend-mode: exclusion;
+}
+
+.heading--up {
+    display: none;
+}
+
+.heading--down {
+    bottom: 0;
+    top: auto;
+    margin-top: 0;
+    margin-bottom: -6vw;
+    transform-origin: 50% 60%;
+}
+
+.columns {
+    width: 100%;
+    position: relative;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.column-wrap {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 0 15vh;
+}
+
+.column-wrap--height {
+    height: 100vh;
+    flex-direction: column-reverse;
+}
+
+.column {
+    position: relative;
+    display: block;
+    will-change: transform;
+}
+
+.content__item-title {
+    opacity: 0;
+    grid-area: title;
+    margin: 1rem 0 0 1.5rem;
+    justify-self: center;
+    font-family: meno-banner, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 9vh;
+    white-space: nowrap;
+    transform-origin: 50% 80%;
+    will-change: transform, opacity;
+}
+
 
 /* Page Loader */
 

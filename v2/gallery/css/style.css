@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    --color-text: #d5f8b2;
+    --color-link: #d5f8b2;
+    --color-link-hover: #000;
+    --color-deco: #d5f8b2;
+    color: var(--color-text);
+    background: rgb(131, 58, 180);
+    background: linear-gradient(0deg, rgba(131, 58, 180, 1) 0%, 0%, rgb(49, 6, 52), #9460cc 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+    width: 768px;
+    max-width: 100%;
+    margin: 3em auto
+}
+
+.slider .container {
+    position: relative;
+    left: 0
+}
+
+.slider-image .img-container {
+    position: relative
+}
+
+.slider-image img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: block
+}
+
+a.slider-controls {
+    opacity: 0;
+    transition: opacity .4s ease, background-color .2s ease;
+    pointer-events: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    background-color: rgba(255, 255, 255, .2);
+    vertical-align: middle;
+    color: #fff;
+    right: 0;
+    transition: background-color .2s ease
+}
+
+.no-touch .slider:hover a.slider-controls,
+a.slider-controls .no-touch .slider:active,
+a.slider-controls .no-touch .slider:focus {
+    opacity: 1
+}
+
+a.slider-controls:active,
+a.slider-controls:focus,
+a.slider-controls:hover {
+    background-color: rgba(255, 255, 255, .4)
+}
+
+a.slider-controls .next {
+    display: block;
+    text-indent: -999rem;
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    left: 50%;
+    top: 50%;
+    margin: -25% 0 0 -25%;
+    background-size: 100%
+}
+
+a.slider-controls .counter {
+    position: absolute;
+    bottom: 1em;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center
+}
+
+a.slider-controls.hide {
+    opacity: 0!important;
+    pointer-events: none
+}
