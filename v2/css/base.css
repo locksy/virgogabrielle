@@ -164,8 +164,7 @@ a:focus {
 }
 
 .item:nth-child(3) .item__img-wrap {
-    width: 800px;
-    --aspect-ratio: 900/505;
+    --aspect-ratio: 60/75;
     --image: url("../vgpics/DSC03850.jpg");
 }
 
