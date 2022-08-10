@@ -152,7 +152,8 @@ a:focus {
 }
 
 .item:first-child .item__img-wrap {
-    --aspect-ratio: 8/10;
+    width: 800px;
+    --aspect-ratio: 900/505;
     --image: url("../vgpics/chenayi_6.JPG");
 }
 
@@ -163,7 +164,8 @@ a:focus {
 }
 
 .item:nth-child(3) .item__img-wrap {
-    --aspect-ratio: 60/75;
+    width: 800px;
+    --aspect-ratio: 900/505;
     --image: url("../vgpics/DSC03850.jpg");
 }
 
@@ -174,7 +176,8 @@ a:focus {
 }
 
 .item:nth-child(5) .item__img-wrap {
-    --aspect-ratio: 6/8;
+    width: 800px;
+    --aspect-ratio: 900/505;
     --image: url("../vgpics/felipe_2.JPG");
 }
 
