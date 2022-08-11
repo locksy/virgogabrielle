@@ -215,60 +215,60 @@ a:focus {
 .item:first-child .item__img-wrap {
     width: 800px;
     --aspect-ratio: 900/505;
-    --image: url("../vgpics/chenayi_6.JPG");
+    background-image: url("../vgpics/chenayi_6.JPG");
     background: rgb(131, 58, 180);
 }
 
 .item:nth-child(2) .item__img-wrap {
     width: 1000px;
     --aspect-ratio: 120/76;
-    --image: url("../vgpics/DSC00655.jpg");
+    background-image: url('../vgpics/DSC00655.jpg');
     background: rgb(131, 58, 180);
 }
 
 .item:nth-child(3) .item__img-wrap {
     --aspect-ratio: 60/75;
-    --image: url("./vgpics/DSC03850.jpg");
+    background-image: url('../vgpics/DSC03850.jpg');
     background: rgb(131, 58, 180);
 }
 
 .item:nth-child(4) .item__img-wrap {
     width: 800px;
     --aspect-ratio: 900/505;
-    --image: url("../vgpics/image0.jpeg");
+    background-image: url('../vgpics/image0.jpeg');
     background: rgb(131, 58, 180);
 }
 
 .item:nth-child(5) .item__img-wrap {
     width: 800px;
     --aspect-ratio: 900/505;
-    --image: url("../vgpics/felipe_2.JPG");
+    --image: url('../vgpics/felipe_2.JPG');
     background: rgb(131, 58, 180);
 }
 
 .item:nth-child(6) .item__img-wrap {
     --aspect-ratio: 60/75;
-    --image: url("../vgpics/DSC03805.jpg");
+    --image: url('../vgpics/DSC03805.jpg');
     background: rgb(131, 58, 180);
 }
 
 .item:nth-child(7) .item__img-wrap {
     width: 900px;
     --aspect-ratio: 1000/749;
-    --image: url("../vgpics/KG_12.JPG");
+    --image: url('../vgpics/KG_12.JPG');
     background: rgb(131, 58, 180);
 }
 
 .item:nth-child(8) .item__img-wrap {
     width: 900px;
     --aspect-ratio: 1000/562;
-    --image: url("../vgpics/KG_1_.jpg");
+    --image: url('../vgpics/KG_1_.jpg');
     background: rgb(131, 58, 180);
 }
 
 .item:nth-child(9) .item__img-wrap {
     --aspect-ratio: 60/75;
-    --image: url("../vgpics/KG_7_.JPG");
+    --image: url('../vgpics/KG_7_.JPG');
     background: rgb(131, 58, 180);
 }
 
