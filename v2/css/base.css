@@ -225,9 +225,8 @@ a:focus {
 }
 
 .item:nth-child(2) .item__img-wrap {
-    width: 800px;
-    --aspect-ratio: 900/505;
-    background: url(https://locksy.github.io/virgogabrielle/v2/vgpics/chenayi_3.JPG);
+    --aspect-ratio: 60/75;
+    background: url(https://locksy.github.io/virgogabrielle/v2/vgpics/theset916_3_.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
     -o-background-size: cover;
@@ -249,7 +248,7 @@ a:focus {
 .item:nth-child(4) .item__img-wrap {
     width: 900px;
     --aspect-ratio: 1000/749;
-    background: url(https://locksy.github.io/virgogabrielle/v2/vgpics/DSC03805.jpg);
+    background: url(https://locksy.github.io/virgogabrielle/v2/vgpics/mase_7.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
     -o-background-size: cover;
@@ -258,8 +257,7 @@ a:focus {
 }
 
 .item:nth-child(5) .item__img-wrap {
-    width: 800px;
-    --aspect-ratio: 900/505;
+    --aspect-ratio: 60/75;
     background: url(https://locksy.github.io/virgogabrielle/v2/vgpics/DSC00655.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
