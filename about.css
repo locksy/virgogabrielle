@@ -29,8 +29,7 @@ a {
 }
 
 aside {
-    background: linear-gradient(25deg, #57d61c63 0.5%, #230d39 85%);
-    color: #d8eeb8;
+    background-color: #9460cc;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,8 +39,8 @@ aside {
 
 @media (min-width: 700px) {
     aside {
-        background: linear-gradient(25deg, #57d61c63 0.5%, #230d39 55%);
-        mix-blend-mode: color: #d6f8b2;
+        background-color: #9460cc;
+        mix-blend-mode: difference;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -58,10 +57,11 @@ aside {
 
 h1,
 .flourish {
-    font-size: 6vw;
+    font-size: 5vw;
     margin: 10px 0;
     font-family: "Oxygen", sans-serif;
     text-align: center;
+    color: #d6f8b2;
 }
 
 @media (min-width: 700px) {
@@ -70,6 +70,7 @@ h1,
         font-size: 4.5vw;
         margin: 20px 0;
         padding: 0 20px;
+        color: #d6f8b2;
     }
 }
 
@@ -143,7 +144,7 @@ a .photographer span {
 
 .image img {
     width: 100%;
-    margin: 20px 0;
+    margin: 0px 0;
 }
 
 .text {
