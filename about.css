@@ -35,6 +35,7 @@ aside {
     justify-content: center;
     align-items: center;
     padding: 20px 0 40px;
+    position: absolute;
 }
 
 @media (min-width: 700px) {
