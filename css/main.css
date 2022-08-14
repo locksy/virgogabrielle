@@ -1745,6 +1745,8 @@ header .header-logo a {
     background-attachment: fixed;
     min-height: 804px;
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 #home .overlay {
@@ -1754,7 +1756,7 @@ header .header-logo a {
     width: 100%;
     height: 100%;
     opacity: .2;
-    background-color: #19191b;
+    background-color: #1b191b;
 }
 
 .home-content-table {
