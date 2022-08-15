@@ -1736,7 +1736,6 @@ header .header-logo a {
     width: 100%;
     height: 100%;
     background-color: #9460cc;
-    background-image: url(../images/mase_9.JPG);
     background-repeat: no-repeat;
     background-position: center 30%;
     -webkit-background-size: cover;
@@ -1747,20 +1746,26 @@ header .header-logo a {
 }
 
 @media (max-width: 480px) {
-    body {
+    #home {
         background-image: url(../images/portfolio/mase_9iphone.jpg);
     }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-    body {
+    #home {
         background-image: url(../images/portfolio/mase_9iphone.jpg);
     }
 }
 
 @media (min-width: 1025px) {
-    body {
-        background-image: url(../images/mase_9.JPG);
+    #home {
+        background-image: url(../images/portfolio/mase_9.JPG);
+    }
+}
+
+@media (min-width: 1200px) {
+    #home {
+        background-image: url(../images/portfolio/mase_9.JPG);
     }
 }
 
