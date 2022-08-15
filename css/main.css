@@ -1742,6 +1742,8 @@ header .header-logo a {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    overflow: hidden;
+    height: 100vh;
     // background fixed and background cover don't play nicely together on iOS. So background is fixed only on desktops.
     /* XXS */
     @media only screen and (min-width: 320px) {}
