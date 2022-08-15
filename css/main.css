@@ -1733,35 +1733,35 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 
 #home {
+    width: 100%;
+    height: 100%;
     background-color: #9460cc;
     background-image: url(../images/mase_9.JPG);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center 30%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    overflow: hidden;
-    height: 100vh;
-    // background fixed and background cover don't play nicely together on iOS. So background is fixed only on desktops.
-    /* XXS */
-    @media only screen and (min-width: 320px) {}
-    /* background isn't fixed here.*/
-    /* XS  */
-    @media only screen and (min-width: 480px) {}
-    /* background still isn't fixed here.
-    /* SM  */
-    @media only screen and (min-width: 768px) {}
-    /* background still isn't fixed here.
-    /* MD  */
-    @media only screen and (min-width: 992px) {
-        background-attachment: fixed;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url(../images/portfolio/mase_9iphone.jpg);
     }
-    /* Ok NOW the background is fixed.
-    /* LG  */
-    @media only screen and (min-width: 1200px) {}
-    // background is STILL fixed here.
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url(../images/portfolio/mase_9iphone.jpg);
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        background-image: url(../images/mase_9.JPG);
+    }
 }
 
 #home .overlay {
