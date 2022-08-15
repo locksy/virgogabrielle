@@ -1733,8 +1733,6 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 
 #home {
-    width: 100%;
-    height: 100%;
     background-color: #9460cc;
     background-image: url(../images/mase_9.JPG);
     background-repeat: no-repeat;
