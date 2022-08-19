@@ -1318,6 +1318,8 @@ input::-moz-focus-inner {
     text-transform: uppercase;
     letter-spacing: .3rem;
     margin-bottom: 1.2rem;
+    mix-blend-mode: exclusion;
+    opacity: 2%;
 }
 
 .section-intro .lead {
@@ -1365,22 +1367,22 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 600px) {
     .section-intro h1 {
-        font-size: 3.4rem;
+        font-size: 2.4rem;
     }
     .section-intro h3 {
-        font-size: 1.7rem;
+        font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .section-intro h3 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .section-intro h1 {
-        font-size: 3.1rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -1571,6 +1573,7 @@ header .header-logo a {
     -webkit-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    opacity: 77%;
 }
 
 #menu-nav-wrap a,
