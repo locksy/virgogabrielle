@@ -1745,7 +1745,7 @@ header .header-logo a {
 }
 
 .fixed-img {
-    background-image: url(../images/portfolio/mase_9iphone.jpg);
+    background-image: url('https://www.virgogabrielle.com/images/portfolio/mase_9iphone.jpg');
     height: 100%;
     width: 100%;
     position: fixed;
