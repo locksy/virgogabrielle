@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="parallax.js"></script>
+
+</head>
+
+<body>
+    <div class="container" style="mix-blend-mode:difference">
+        <ul id="scene" style="mix-blend-mode:hue">
+            <li class="layer" data-depth=".1" style="mix-blend-mode:difference">
+                <img src="images/bokeh1.png">
+            </li>
+            <li class="layer" data-depth="2" style="mix-blend-mode:color-dodge">
+                <img src="images/bokeh2.png">
+            </li>
+            <li class="layer" data-depth="3" style="mix-blend-mode:difference">
+                <img src="images/bokeh3.png">
+            </li>
+            <li class="layer" data-depth=".4" style="mix-blend-mode:difference">
+                <img src="images/bokeh4.png">
+            </li>
+            <li class="layer" data-depth="8" style="mix-blend-mode:color-dodge">
+                <img src="images/bokeh5.png">
+            </li>
+            <li class="layer" data-depth="4.5" style="mix-blend-mode:difference">
+                <img src="images/bokeh6.png">
+            </li>
+            <li class="layer" data-depth=".3" style="mix-blend-mode:difference">
+                <img src="images/bokeh7.png">
+            </li>
+            <li class="layer" data-depth="0.8" style="mix-blend-mode:difference">
+                <img src="images/bokeh8.png">
+            </li>
+
+        </ul>
+    </div>
+    <script type="text/javascript">
+        let scene = document.getElementById('scene')
+        let parallax = new Parallax(scene)
+    </script>
+</body>
+
+</html>
