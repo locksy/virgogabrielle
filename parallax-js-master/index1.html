@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="parallax.js"></script>
+
+</head>
+
+<body>
+    <div class="container" style="mix-blend-mode:lighten">
+        <ul id="scene" style="mix-blend-mode:hue">
+            <li class="layer" data-depth="2.1" style="mix-blend-mode:difference">
+                <img src="images/bokeh1.png">
+            </li>
+            <li class="layer" data-depth="8.2" data-invert-x="false" data-invert-y="false" style="mix-blend-mode:exclusion">
+                <img src="images/colored.png">
+            </li>
+            <li class="layer" data-depth="8.2" data-invert-x="false" data-invert-y="false" style="mix-blend-mode:exclusion">
+                <img src="images/blue.png">
+            </li>
+            <li class="layer" data-depth="4.4" style="mix-blend-mode:difference">
+                <img src="images/smoke.png">
+            </li>
+
+            <li class="layer" data-depth="4.5" style="mix-blend-mode:difference">
+                <img src="images/bokeh6.png">
+            </li>
+
+
+        </ul>
+    </div>
+    <script type="text/javascript">
+        let scene = document.getElementById('scene')
+        let parallax = new Parallax(scene)
+    </script>
+</body>
+
+</html>
