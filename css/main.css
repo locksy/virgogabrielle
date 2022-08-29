@@ -1519,7 +1519,7 @@ header .header-logo a {
     display: block;
     height: 3px;
     width: 24px;
-    background-color: #d6f8b2;
+    background-color: #bbf47e;
     position: absolute;
     top: 50%;
     right: 9px;
@@ -1588,7 +1588,7 @@ header .header-logo a {
 }
 
 #menu-nav-wrap h3 {
-    color: #d6f8b2;
+    color: #bbf47e;
     font-family: "montserrat-regular", sans-serif;
     font-size: 2rem;
     line-height: 1.5;
@@ -1695,7 +1695,7 @@ header .header-logo a {
 }
 
 #menu-nav-wrap .sponsor-text span {
-    color: #d6f8b2;
+    color: #bbf47e;
 }
 
 
@@ -1929,7 +1929,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #d6f8b2 !important;
+    color: #bbf47e !important;
     background: transparent;
     position: relative;
     top: 36px;
